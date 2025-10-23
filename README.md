@@ -162,9 +162,11 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 
 
 **OUTPUT**
+
 **Loss Vs Epoch Plot**
 
 <img width="1036" height="767" alt="image" src="https://github.com/user-attachments/assets/b77c578f-1c99-4452-a8c4-a76b9cc56705" />
+
 
 <img width="1034" height="772" alt="image" src="https://github.com/user-attachments/assets/630e23ef-25ba-45ff-b580-8a23d227d39e" />
 
