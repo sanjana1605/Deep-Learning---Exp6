@@ -159,8 +159,6 @@ print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
 ```
-
-
 **OUTPUT**
 
 **Loss Vs Epoch Plot**
@@ -172,7 +170,6 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 
 
 **Sample Text Prediction**
-
 <img width="529" height="844" alt="image" src="https://github.com/user-attachments/assets/87d8ca1f-8bc3-4240-b081-3f190bd25f44" />
 
 
