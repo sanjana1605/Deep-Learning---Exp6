@@ -46,7 +46,7 @@ Output Layer (Predicted NER Tags)
 **Name:** SANJANA SRI N
 
 **Register Number:** 2305003007
-
+```
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -157,6 +157,7 @@ print("{:15}{:5}\t {}\n".format("Word", "True", "Pred"))
 print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
+```
 
 
 
