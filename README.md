@@ -1,14 +1,14 @@
 # Deep-Learning---Exp6
 
- **DL- Developing a Deep Learning Model for NER using LSTM**
+### **Developing a Deep Learning Model for NER using LSTM**
 
-**AIM**
+## **AIM**
 
 To develop an LSTM-based model for recognizing the named entities in the text.
 
-**THEORY**
+## **THEORY**
 
-**Neural Network Model**
+### **Neural Network Model**
 ```
 
 Input Layer (Word Embeddings)
@@ -26,7 +26,7 @@ Bi-directional LSTM Layer
 Output Layer (Predicted NER Tags)
 ```
 
-**DESIGN STEPS**
+## **DESIGN STEPS**
 
 **STEP 1:**  Import the necessary packages.
 
@@ -42,7 +42,7 @@ Output Layer (Predicted NER Tags)
 
 **STEP 7:** We compile the model to fit the train sets and validation sets.
 
-**PROGRAM**
+## **PROGRAM**
 
 **Name:** SANJANA SRI N
 
@@ -159,9 +159,10 @@ print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
 ```
-**OUTPUT**
 
-**Loss Vs Epoch Plot**
+## **OUTPUT**
+
+### **Loss Vs Epoch Plot**
 
 <img width="1036" height="767" alt="image" src="https://github.com/user-attachments/assets/b77c578f-1c99-4452-a8c4-a76b9cc56705" />
 
@@ -169,10 +170,10 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 <img width="1034" height="772" alt="image" src="https://github.com/user-attachments/assets/630e23ef-25ba-45ff-b580-8a23d227d39e" />
 
 
-**Sample Text Prediction**
+### **Sample Text Prediction**
 <img width="529" height="844" alt="image" src="https://github.com/user-attachments/assets/87d8ca1f-8bc3-4240-b081-3f190bd25f44" />
 
 
-**RESULT**
+## **RESULT**
 
 Thus, an LSTM-based model for recognizing the named entities in the text is successfully developed.
